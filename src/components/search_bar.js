@@ -7,7 +7,6 @@ class SearchBar extends Component {
 
 		this.state = { term : ''};
 	}
-
 	render() {
 		return (
 			<div>
@@ -24,3 +23,5 @@ class SearchBar extends Component {
 }
 
 export default SearchBar;
+
+// ()
