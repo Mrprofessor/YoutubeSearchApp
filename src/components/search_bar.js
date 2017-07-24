@@ -9,6 +9,7 @@ class SearchBar extends Component {
 	render() {
 		return(
 			<div className="search-bar">
+				<h1> YoutubeSearch App </h1>
 				<input 
 					type="text" 
 					value = {this.state.term}
