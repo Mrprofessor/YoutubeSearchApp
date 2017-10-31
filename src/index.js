@@ -6,6 +6,9 @@ import SearchBar from './components/search_bar';
 import VideoDetail from './components/video_detail';
 import VideoList from './components/video_list';
 
+import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
+
 
 const API_KEY = 'AIzaSyBltuuzWz2M8NKwUKxfGP9HRr3GHfHMm_k';
 
@@ -17,7 +20,7 @@ class App extends Component {
 			videos : [],
 			selectedVideo : null
 		};
-		this.videoSearch('vim expert');
+		this.videoSearch('Configuring vim');
 	}
 	
 	videoSearch(term) {
